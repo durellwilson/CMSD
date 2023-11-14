@@ -2,9 +2,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        QuickLinksView()
-        
+        NavigationStack {
+            Image("Image")
+                .resizable()
+                .scaledToFit()
+                .padding()
+            CarouselView()
+            QuickLinksView()
+        }
     }
+    
 }
 
 #Preview {

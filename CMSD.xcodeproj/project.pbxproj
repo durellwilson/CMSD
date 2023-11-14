@@ -14,6 +14,10 @@
 		236F7DC92AFA837B0052FEE3 /* QuickLinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F7DC82AFA837B0052FEE3 /* QuickLinksView.swift */; };
 		236F7DCB2AFA83920052FEE3 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F7DCA2AFA83920052FEE3 /* WebView.swift */; };
 		236F7DCD2AFA83B40052FEE3 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F7DCC2AFA83B40052FEE3 /* AboutView.swift */; };
+		236F7DD32AFD13400052FEE3 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F7DD22AFD13400052FEE3 /* CarouselView.swift */; };
+		236F7DF12B026F7D0052FEE3 /* NewsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F7DF02B026F7D0052FEE3 /* NewsCard.swift */; };
+		236F7DF32B02F1730052FEE3 /* NewsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F7DF22B02F1730052FEE3 /* NewsCardView.swift */; };
+		236F7DF52B03B4630052FEE3 /* LinkButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F7DF42B03B4630052FEE3 /* LinkButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		236F7DC82AFA837B0052FEE3 /* QuickLinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLinksView.swift; sourceTree = "<group>"; };
 		236F7DCA2AFA83920052FEE3 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		236F7DCC2AFA83B40052FEE3 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		236F7DD22AFD13400052FEE3 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		236F7DF02B026F7D0052FEE3 /* NewsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCard.swift; sourceTree = "<group>"; };
+		236F7DF22B02F1730052FEE3 /* NewsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCardView.swift; sourceTree = "<group>"; };
+		236F7DF42B03B4630052FEE3 /* LinkButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 			children = (
 				236F7DCE2AFA84C90052FEE3 /* App */,
 				236F7DD02AFA84E90052FEE3 /* Components */,
+				236F7DEF2B026F620052FEE3 /* Model */,
 				236F7DCF2AFA84DC0052FEE3 /* View */,
 				236F7DBD2AFA83570052FEE3 /* Assets.xcassets */,
 				236F7DBF2AFA83570052FEE3 /* CMSD.entitlements */,
@@ -88,8 +97,10 @@
 			isa = PBXGroup;
 			children = (
 				236F7DCC2AFA83B40052FEE3 /* AboutView.swift */,
-				236F7DC82AFA837B0052FEE3 /* QuickLinksView.swift */,
+				236F7DD22AFD13400052FEE3 /* CarouselView.swift */,
+				236F7DF22B02F1730052FEE3 /* NewsCardView.swift */,
 				236F7DBB2AFA83560052FEE3 /* ContentView.swift */,
+				236F7DC82AFA837B0052FEE3 /* QuickLinksView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -98,8 +109,17 @@
 			isa = PBXGroup;
 			children = (
 				236F7DCA2AFA83920052FEE3 /* WebView.swift */,
+				236F7DF42B03B4630052FEE3 /* LinkButtonView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		236F7DEF2B026F620052FEE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				236F7DF02B026F7D0052FEE3 /* NewsCard.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,9 +194,13 @@
 			files = (
 				236F7DBC2AFA83560052FEE3 /* ContentView.swift in Sources */,
 				236F7DCB2AFA83920052FEE3 /* WebView.swift in Sources */,
+				236F7DF52B03B4630052FEE3 /* LinkButtonView.swift in Sources */,
+				236F7DF12B026F7D0052FEE3 /* NewsCard.swift in Sources */,
 				236F7DBA2AFA83560052FEE3 /* CMSDApp.swift in Sources */,
 				236F7DC92AFA837B0052FEE3 /* QuickLinksView.swift in Sources */,
+				236F7DD32AFD13400052FEE3 /* CarouselView.swift in Sources */,
 				236F7DCD2AFA83B40052FEE3 /* AboutView.swift in Sources */,
+				236F7DF32B02F1730052FEE3 /* NewsCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

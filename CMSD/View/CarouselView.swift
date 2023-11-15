@@ -18,16 +18,18 @@ struct CarouselView: View {
             }
             .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
         }
-        .frame(height: 250)
+      .frame(height: 270)
+        //.ignoresSafeArea()
     }
+        
 }
 
 struct CardView: View{
     var body: some View{
         RoundedRectangle(cornerRadius: 23)
             .fill(.accent)
-            .frame(height: 250)
-            .padding()
+            .frame(height: 270)
+            .padding([.trailing, .leading], 10)
     }
 }
 

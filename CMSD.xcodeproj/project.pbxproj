@@ -98,8 +98,8 @@
 			children = (
 				236F7DCC2AFA83B40052FEE3 /* AboutView.swift */,
 				236F7DD22AFD13400052FEE3 /* CarouselView.swift */,
-				236F7DF22B02F1730052FEE3 /* NewsCardView.swift */,
 				236F7DBB2AFA83560052FEE3 /* ContentView.swift */,
+				236F7DF22B02F1730052FEE3 /* NewsCardView.swift */,
 				236F7DC82AFA837B0052FEE3 /* QuickLinksView.swift */,
 			);
 			path = View;

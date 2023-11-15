@@ -9,88 +9,59 @@ import SwiftUI
 
 struct QuickLinksView: View {
     var body: some View {
-        GeometryReader { geometry in
+        
             NavigationView {
                 VStack {
                     HStack {
-                        NavigationLink(destination: WebView(url: URL(string: "https://google.com")!, webTitle: "Check in")) {
-                            VStack {
-                                Image(systemName: "person.fill")
-                                    .resizable()
-                                    .frame(width: 50, height: 50)
-                                    .padding()
-                                Text("Check in")
-                            }
-                            
-                        }
-                        .padding()
-                        NavigationLink(destination: WebView(url: URL(string: "https://cms.msu.edu/detroit/_assets/CMS-D%20Spring%20Schedule%202023%20upd.%201.13.23.pdf")!, webTitle: "Schedule")) {
-                            VStack {
-                                Image(systemName: "calendar")
-                                    .resizable()
-                                    .frame(width: 50, height: 50)
-                                    .padding()
-                                Text("Schedule")
-                            }
-                        }
-                        .padding()
-                        NavigationLink(destination: WebView(url: URL(string: "https://www.dropbox.com")!, webTitle: "Dropbox")) {
-                            VStack {
-                                Image(systemName: "shippingbox")
-                                    .resizable()
-                                    .frame(width: 50, height: 50)
-                                    .padding()
-                                Text("Dropbox")
-                            }
-                        }
-                        .padding()
+                        LinkButtonView(url: "https://google.com", imageName: "person.fill", title: "Discover")
+                        
+                        LinkButtonView(url: "https://drive.google.com/file/d/1_-_FlrODyeYDY9-xJyJR8rYPsQF8_LAt/view", imageName: "calendar", title: "Schedule")
+                        
+                        LinkButtonView(url: "https://www.dropbox.com", imageName: "shippingbox", title: "Dropbox")
                     }
-                    
                     HStack {
-                        NavigationLink(destination: WebView(url: URL(string: "https://cms.msu.edu/detroit/give/index.html")!, webTitle: "Check-in")) {
-                            VStack {
-                                Image(systemName: "list.bullet.clipboard.fill")
-                                    .resizable()
-                                    .frame(width:50 , height: 50)
-                                    .padding()
-                                Text("Donate")
-                            }
-                        }
-                        .padding()
+                        LinkButtonView(url: "https://www.cmsd.msu.edu/support", imageName:"list.bullet.clipboard.fill", title: "Donate", imageWidth: 30, imageHeight: 40)
+                        
                         NavigationLink(destination: AboutView()) {
                             VStack {
-                                Image(systemName: "info.circle")
-                                    .resizable()
-                                    .frame(width: 50, height: 50)
-                                    .padding()
+                                ZStack {
+                                    Circle()
+                                        .fill(Color.accentColor)
+                                        .frame(width: 90, height: 90)
+                                    
+                                    Image(systemName: "info.circle")
+                                        .resizable()
+                                        .frame(width: 45, height: 45)
+                                        .padding()
+                                        .foregroundStyle(.white)
+                                    
+                                }
                                 Text("About")
+                                
                             }
                         }
-                        .padding()
-                        NavigationLink(destination: WebView(url: URL(string: "https://cms.msu.edu/detroit/detroit/register/index.html")!, webTitle: "Registration")) {
-                            VStack {
-                                Image(systemName: "pencil")
-                                    .resizable()
-                                    .frame(width: 50, height: 50)
-                                    .padding()
-                                Text("Registration")
-                            }
-                        }
-                        .padding()
+                        .padding([.trailing,.leading])
+                        
+                        LinkButtonView(url: "https://cms.msu.edu/detroit/detroit/register/index.html", imageName: "pencil", title: "Registration")
+                        
                     }
-                    Spacer()
+                    //Spacer()
                 }
-                .navigationBarTitle("Quick Links")
+                
+                .ignoresSafeArea(edges: .top)
+                
                 
                 
                 
                 
             }
-        //    .frame(width: geometry.size.width / 2)
-            
+            //    .frame(width: geometry.size.width / 2)
+            //     .ignoresSafeArea()
+        
         }
     }
-}
+
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

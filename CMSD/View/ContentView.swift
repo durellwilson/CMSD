@@ -4,7 +4,6 @@ struct ContentView: View {
     var body: some View {
         GeometryReader { geo in
             NavigationStack {
-                
                 Image("Image")
                     .resizable()
                     .scaledToFit()
@@ -18,12 +17,10 @@ struct ContentView: View {
                     .padding(10)
                     .foregroundStyle(.accent)
                 Rectangle()
-                    .frame(width: geo.size.width - 50, height: 1)
+                    .frame(width: geo.size.width - 50, height: 0.8)
                     .foregroundStyle(.accent)
                 QuickLinksView()
-                
             }
-            
         }
     }
 }

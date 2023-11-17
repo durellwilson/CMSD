@@ -12,9 +12,32 @@ struct CarouselView: View {
     var body: some View {
         VStack{
             TabView(selection: $index) {
-                ForEach((0..<articles.count), id: \.self) { index in
-                    CardView()
-                }
+//                ForEach((0..<articles.count), id: \.self) { index in
+//                    CardView()
+//                }
+                ForEach(articles, id: \.self) { article in
+                    NavigationLink(destination: WebView(url: URL(string: article.url)!, webTitle: article.title)) {
+                                           RoundedRectangle(cornerRadius: 15)
+                                               .fill(Color.white)
+                                               .shadow(radius: 5)
+                                               .overlay(
+                                                   VStack(alignment: .leading, spacing: 8) {
+                                                       Text(article.title)
+                                                           .font(.headline)
+                                                           .fontWeight(.bold)
+                                                       
+                                                       Text(article.subheading)
+                                                           .font(.subheadline)
+                                                           .foregroundColor(.accentColor)
+                                                   }
+                                                   .padding(15)
+                                               )
+                                               .padding(10)
+                                       }
+                                   }
+                               .padding()
+               
+                                    
             }
             .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
         }

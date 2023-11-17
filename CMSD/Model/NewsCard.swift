@@ -6,7 +6,7 @@
 //
 import Foundation
 
-struct NewsArticle:Identifiable, Codable {
+struct NewsArticle:Identifiable, Hashable {
     var id = UUID()
     var title: String
     var subheading: String

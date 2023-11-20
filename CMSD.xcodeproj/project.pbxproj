@@ -18,6 +18,23 @@
 		236F7DF12B026F7D0052FEE3 /* NewsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F7DF02B026F7D0052FEE3 /* NewsCard.swift */; };
 		236F7DF32B02F1730052FEE3 /* NewsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F7DF22B02F1730052FEE3 /* NewsCardView.swift */; };
 		236F7DF52B03B4630052FEE3 /* LinkButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F7DF42B03B4630052FEE3 /* LinkButtonView.swift */; };
+		71536E9D2B079F5B00011C13 /* AdministratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71536E9C2B079F5B00011C13 /* AdministratorView.swift */; };
+		7186158B2B0BB7FD00F95412 /* Gotham-XLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7186157B2B0BB7FD00F95412 /* Gotham-XLight.otf */; };
+		7186158C2B0BB7FD00F95412 /* Gotham-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7186157C2B0BB7FD00F95412 /* Gotham-Thin.otf */; };
+		7186158D2B0BB7FD00F95412 /* Gotham-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7186157D2B0BB7FD00F95412 /* Gotham-Black.otf */; };
+		7186158E2B0BB7FD00F95412 /* Gotham-XLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7186157E2B0BB7FD00F95412 /* Gotham-XLightItalic.otf */; };
+		7186158F2B0BB7FD00F95412 /* Gotham-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7186157F2B0BB7FD00F95412 /* Gotham-Medium.otf */; };
+		718615902B0BB7FD00F95412 /* Gotham-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 718615802B0BB7FD00F95412 /* Gotham-Book.otf */; };
+		718615912B0BB7FD00F95412 /* Gotham-UltraItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 718615812B0BB7FD00F95412 /* Gotham-UltraItalic.otf */; };
+		718615922B0BB7FD00F95412 /* Gotham-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 718615822B0BB7FD00F95412 /* Gotham-Bold.otf */; };
+		718615932B0BB7FD00F95412 /* Gotham-Ultra.otf in Resources */ = {isa = PBXBuildFile; fileRef = 718615832B0BB7FD00F95412 /* Gotham-Ultra.otf */; };
+		718615942B0BB7FD00F95412 /* Gotham-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 718615842B0BB7FD00F95412 /* Gotham-LightItalic.otf */; };
+		718615952B0BB7FD00F95412 /* Gotham-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 718615852B0BB7FD00F95412 /* Gotham-ThinItalic.otf */; };
+		718615962B0BB7FD00F95412 /* Gotham-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 718615862B0BB7FD00F95412 /* Gotham-Light.otf */; };
+		718615972B0BB7FD00F95412 /* Gotham-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 718615872B0BB7FD00F95412 /* Gotham-BoldItalic.otf */; };
+		718615982B0BB7FD00F95412 /* Gotham-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 718615882B0BB7FD00F95412 /* Gotham-BookItalic.otf */; };
+		718615992B0BB7FD00F95412 /* Gotham-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 718615892B0BB7FD00F95412 /* Gotham-BlackItalic.otf */; };
+		7186159A2B0BB7FD00F95412 /* Gotham-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7186158A2B0BB7FD00F95412 /* Gotham-MediumItalic.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +51,24 @@
 		236F7DF02B026F7D0052FEE3 /* NewsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCard.swift; sourceTree = "<group>"; };
 		236F7DF22B02F1730052FEE3 /* NewsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCardView.swift; sourceTree = "<group>"; };
 		236F7DF42B03B4630052FEE3 /* LinkButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkButtonView.swift; sourceTree = "<group>"; };
+		71536E9C2B079F5B00011C13 /* AdministratorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdministratorView.swift; sourceTree = "<group>"; };
+		71536E9E2B07A5BF00011C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7186157B2B0BB7FD00F95412 /* Gotham-XLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-XLight.otf"; sourceTree = "<group>"; };
+		7186157C2B0BB7FD00F95412 /* Gotham-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Thin.otf"; sourceTree = "<group>"; };
+		7186157D2B0BB7FD00F95412 /* Gotham-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Black.otf"; sourceTree = "<group>"; };
+		7186157E2B0BB7FD00F95412 /* Gotham-XLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-XLightItalic.otf"; sourceTree = "<group>"; };
+		7186157F2B0BB7FD00F95412 /* Gotham-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Medium.otf"; sourceTree = "<group>"; };
+		718615802B0BB7FD00F95412 /* Gotham-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Book.otf"; sourceTree = "<group>"; };
+		718615812B0BB7FD00F95412 /* Gotham-UltraItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-UltraItalic.otf"; sourceTree = "<group>"; };
+		718615822B0BB7FD00F95412 /* Gotham-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Bold.otf"; sourceTree = "<group>"; };
+		718615832B0BB7FD00F95412 /* Gotham-Ultra.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Ultra.otf"; sourceTree = "<group>"; };
+		718615842B0BB7FD00F95412 /* Gotham-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-LightItalic.otf"; sourceTree = "<group>"; };
+		718615852B0BB7FD00F95412 /* Gotham-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-ThinItalic.otf"; sourceTree = "<group>"; };
+		718615862B0BB7FD00F95412 /* Gotham-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Light.otf"; sourceTree = "<group>"; };
+		718615872B0BB7FD00F95412 /* Gotham-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-BoldItalic.otf"; sourceTree = "<group>"; };
+		718615882B0BB7FD00F95412 /* Gotham-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-BookItalic.otf"; sourceTree = "<group>"; };
+		718615892B0BB7FD00F95412 /* Gotham-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-BlackItalic.otf"; sourceTree = "<group>"; };
+		7186158A2B0BB7FD00F95412 /* Gotham-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-MediumItalic.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +101,14 @@
 		236F7DB82AFA83560052FEE3 /* CMSD */ = {
 			isa = PBXGroup;
 			children = (
+				71536E9E2B07A5BF00011C13 /* Info.plist */,
 				236F7DCE2AFA84C90052FEE3 /* App */,
 				236F7DD02AFA84E90052FEE3 /* Components */,
 				236F7DEF2B026F620052FEE3 /* Model */,
 				236F7DCF2AFA84DC0052FEE3 /* View */,
 				236F7DBD2AFA83570052FEE3 /* Assets.xcassets */,
 				236F7DBF2AFA83570052FEE3 /* CMSD.entitlements */,
+				7186157A2B0BB7FD00F95412 /* Resources */,
 				236F7DC02AFA83570052FEE3 /* Preview Content */,
 			);
 			path = CMSD;
@@ -97,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				236F7DCC2AFA83B40052FEE3 /* AboutView.swift */,
+				71536E9C2B079F5B00011C13 /* AdministratorView.swift */,
 				236F7DD22AFD13400052FEE3 /* CarouselView.swift */,
 				236F7DBB2AFA83560052FEE3 /* ContentView.swift */,
 				236F7DF22B02F1730052FEE3 /* NewsCardView.swift */,
@@ -120,6 +158,29 @@
 				236F7DF02B026F7D0052FEE3 /* NewsCard.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		7186157A2B0BB7FD00F95412 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7186157B2B0BB7FD00F95412 /* Gotham-XLight.otf */,
+				7186157C2B0BB7FD00F95412 /* Gotham-Thin.otf */,
+				7186157D2B0BB7FD00F95412 /* Gotham-Black.otf */,
+				7186157E2B0BB7FD00F95412 /* Gotham-XLightItalic.otf */,
+				7186157F2B0BB7FD00F95412 /* Gotham-Medium.otf */,
+				718615802B0BB7FD00F95412 /* Gotham-Book.otf */,
+				718615812B0BB7FD00F95412 /* Gotham-UltraItalic.otf */,
+				718615822B0BB7FD00F95412 /* Gotham-Bold.otf */,
+				718615832B0BB7FD00F95412 /* Gotham-Ultra.otf */,
+				718615842B0BB7FD00F95412 /* Gotham-LightItalic.otf */,
+				718615852B0BB7FD00F95412 /* Gotham-ThinItalic.otf */,
+				718615862B0BB7FD00F95412 /* Gotham-Light.otf */,
+				718615872B0BB7FD00F95412 /* Gotham-BoldItalic.otf */,
+				718615882B0BB7FD00F95412 /* Gotham-BookItalic.otf */,
+				718615892B0BB7FD00F95412 /* Gotham-BlackItalic.otf */,
+				7186158A2B0BB7FD00F95412 /* Gotham-MediumItalic.otf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,8 +241,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				718615922B0BB7FD00F95412 /* Gotham-Bold.otf in Resources */,
+				718615912B0BB7FD00F95412 /* Gotham-UltraItalic.otf in Resources */,
+				7186158B2B0BB7FD00F95412 /* Gotham-XLight.otf in Resources */,
 				236F7DC22AFA83570052FEE3 /* Preview Assets.xcassets in Resources */,
+				7186158C2B0BB7FD00F95412 /* Gotham-Thin.otf in Resources */,
+				718615952B0BB7FD00F95412 /* Gotham-ThinItalic.otf in Resources */,
+				7186158F2B0BB7FD00F95412 /* Gotham-Medium.otf in Resources */,
+				7186158D2B0BB7FD00F95412 /* Gotham-Black.otf in Resources */,
+				718615992B0BB7FD00F95412 /* Gotham-BlackItalic.otf in Resources */,
 				236F7DBE2AFA83570052FEE3 /* Assets.xcassets in Resources */,
+				7186159A2B0BB7FD00F95412 /* Gotham-MediumItalic.otf in Resources */,
+				718615942B0BB7FD00F95412 /* Gotham-LightItalic.otf in Resources */,
+				718615982B0BB7FD00F95412 /* Gotham-BookItalic.otf in Resources */,
+				718615962B0BB7FD00F95412 /* Gotham-Light.otf in Resources */,
+				718615902B0BB7FD00F95412 /* Gotham-Book.otf in Resources */,
+				718615932B0BB7FD00F95412 /* Gotham-Ultra.otf in Resources */,
+				718615972B0BB7FD00F95412 /* Gotham-BoldItalic.otf in Resources */,
+				7186158E2B0BB7FD00F95412 /* Gotham-XLightItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +273,7 @@
 				236F7DCB2AFA83920052FEE3 /* WebView.swift in Sources */,
 				236F7DF52B03B4630052FEE3 /* LinkButtonView.swift in Sources */,
 				236F7DF12B026F7D0052FEE3 /* NewsCard.swift in Sources */,
+				71536E9D2B079F5B00011C13 /* AdministratorView.swift in Sources */,
 				236F7DBA2AFA83560052FEE3 /* CMSDApp.swift in Sources */,
 				236F7DC92AFA837B0052FEE3 /* QuickLinksView.swift in Sources */,
 				236F7DD32AFD13400052FEE3 /* CarouselView.swift in Sources */,
@@ -330,10 +408,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CMSD/Preview Content\"";
-				DEVELOPMENT_TEAM = ZYA9F39MRV;
+				DEVELOPMENT_TEAM = 33MMZBSD6D;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CMSD/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -344,7 +423,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -368,10 +447,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CMSD/Preview Content\"";
-				DEVELOPMENT_TEAM = ZYA9F39MRV;
+				DEVELOPMENT_TEAM = 33MMZBSD6D;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CMSD/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -382,7 +462,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;

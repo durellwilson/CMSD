@@ -19,6 +19,7 @@
 		236F7DF32B02F1730052FEE3 /* NewsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F7DF22B02F1730052FEE3 /* NewsCardView.swift */; };
 		236F7DF52B03B4630052FEE3 /* LinkButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236F7DF42B03B4630052FEE3 /* LinkButtonView.swift */; };
 		71536E9D2B079F5B00011C13 /* AdministratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71536E9C2B079F5B00011C13 /* AdministratorView.swift */; };
+		7161EDF62B30A0F200B15D18 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7161EDF52B30A0F200B15D18 /* ScheduleView.swift */; };
 		7186158B2B0BB7FD00F95412 /* Gotham-XLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7186157B2B0BB7FD00F95412 /* Gotham-XLight.otf */; };
 		7186158C2B0BB7FD00F95412 /* Gotham-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7186157C2B0BB7FD00F95412 /* Gotham-Thin.otf */; };
 		7186158D2B0BB7FD00F95412 /* Gotham-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7186157D2B0BB7FD00F95412 /* Gotham-Black.otf */; };
@@ -53,6 +54,7 @@
 		236F7DF42B03B4630052FEE3 /* LinkButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkButtonView.swift; sourceTree = "<group>"; };
 		71536E9C2B079F5B00011C13 /* AdministratorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdministratorView.swift; sourceTree = "<group>"; };
 		71536E9E2B07A5BF00011C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7161EDF52B30A0F200B15D18 /* ScheduleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
 		7186157B2B0BB7FD00F95412 /* Gotham-XLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-XLight.otf"; sourceTree = "<group>"; };
 		7186157C2B0BB7FD00F95412 /* Gotham-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Thin.otf"; sourceTree = "<group>"; };
 		7186157D2B0BB7FD00F95412 /* Gotham-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Black.otf"; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 			children = (
 				236F7DCC2AFA83B40052FEE3 /* AboutView.swift */,
 				71536E9C2B079F5B00011C13 /* AdministratorView.swift */,
+				7161EDF52B30A0F200B15D18 /* ScheduleView.swift */,
 				236F7DD22AFD13400052FEE3 /* CarouselView.swift */,
 				236F7DBB2AFA83560052FEE3 /* ContentView.swift */,
 				236F7DF22B02F1730052FEE3 /* NewsCardView.swift */,
@@ -211,7 +214,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1510;
 				TargetAttributes = {
 					236F7DB52AFA83560052FEE3 = {
 						CreatedOnToolsVersion = 15.0;
@@ -278,6 +281,7 @@
 				236F7DC92AFA837B0052FEE3 /* QuickLinksView.swift in Sources */,
 				236F7DD32AFD13400052FEE3 /* CarouselView.swift in Sources */,
 				236F7DCD2AFA83B40052FEE3 /* AboutView.swift in Sources */,
+				7161EDF62B30A0F200B15D18 /* ScheduleView.swift in Sources */,
 				236F7DF32B02F1730052FEE3 /* NewsCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,6 +323,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -380,6 +385,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -407,6 +413,7 @@
 				CODE_SIGN_ENTITLEMENTS = CMSD/CMSD.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"CMSD/Preview Content\"";
 				DEVELOPMENT_TEAM = 33MMZBSD6D;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -446,6 +453,7 @@
 				CODE_SIGN_ENTITLEMENTS = CMSD/CMSD.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"CMSD/Preview Content\"";
 				DEVELOPMENT_TEAM = 33MMZBSD6D;
 				ENABLE_HARDENED_RUNTIME = YES;
